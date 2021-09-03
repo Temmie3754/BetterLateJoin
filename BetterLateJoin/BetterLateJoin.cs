@@ -2,7 +2,6 @@
 using Player = Exiled.Events.Handlers.Player;
 using Server = Exiled.Events.Handlers.Server;
 using System;
-using System.Collections.Generic;
 
 namespace BetterLateJoin
 {

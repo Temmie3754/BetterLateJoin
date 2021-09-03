@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using Exiled.Events.EventArgs;
-using MEC;
 using Exiled.API.Features;
 using System.Linq;
-using Exiled.API.Features.Items;
 using TargetPlayer = Exiled.API.Features.Player;
 using System;
 

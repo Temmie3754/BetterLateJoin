@@ -1,10 +1,4 @@
-﻿using System.Collections.Generic;
-using Exiled.Events.EventArgs;
-using MEC;
-using Exiled.API.Features;
-using System.Linq;
-using Exiled.API.Features.Items;
-using System;
+﻿using System;
 
 namespace BetterLateJoin.Handlers
 {
