@@ -22,8 +22,10 @@ namespace BetterLateJoin.Handlers
             {
                 CurAllowedRoles.Remove(player.Role.ToString());
             }
+
             // Gets the specified class that the new player should be according to the spawn queue
-            string TeamToPick = BetterLateJoin.Instance.Config.SpawnQueue.ToList()[TargetPlayer.List.Count() % 20 - 1].ToString();
+            List<char> SpawnQueue = BetterLateJoin.Instance.Config.SpawnQueue.ToList();
+            string TeamToPick = SpawnQueue[TargetPlayer.List.Count() % 20 - 1].ToString();
 
             string PickedRole;
             // If the specified class is an SCP it checks if there are available SCP slots left and if so to assign a random non-used SCP to the player
